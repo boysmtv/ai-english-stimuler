@@ -4,30 +4,23 @@ function normalizeWhitespace(value) {
     .trim();
 }
 
-function transcribeAttempt({ providedTranscript, file }) {
+function transcribeAttempt({ providedTranscript }) {
   const transcript = normalizeWhitespace(providedTranscript);
 
   if (transcript) {
     return {
       text: transcript,
-      source: "browser-speech-recognition",
-    };
-  }
-
-  if (file) {
-    return {
-      text: "",
-      source: "mock-empty-audio",
+      source: "manual-or-browser-transcript",
     };
   }
 
   return {
     text: "",
-    source: "no-audio",
+    source: "no-transcript",
   };
 }
 
 module.exports = {
+  normalizeWhitespace,
   transcribeAttempt,
 };
-

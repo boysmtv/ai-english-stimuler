@@ -7,26 +7,37 @@ const dataPath = path.join(__dirname, "..", "data", "levels.json");
 
 let cachedLevels = [];
 
+function writeLevelFile(levels) {
+  try {
+    fs.mkdirSync(path.dirname(dataPath), { recursive: true });
+    fs.writeFileSync(dataPath, JSON.stringify(levels, null, 2));
+  } catch (_error) {
+    // Vercel Functions use a read-only deployment filesystem, so we silently
+    // fall back to generated in-memory levels when writes are not available.
+  }
+}
+
 function ensureLevelData() {
   const generatedLevels = buildLevelCatalog();
 
   if (!fs.existsSync(dataPath)) {
-    fs.mkdirSync(path.dirname(dataPath), { recursive: true });
-    fs.writeFileSync(dataPath, JSON.stringify(generatedLevels, null, 2));
+    writeLevelFile(generatedLevels);
   }
 
   try {
     const raw = fs.readFileSync(dataPath, "utf8");
     const parsed = JSON.parse(raw);
 
-    cachedLevels = Array.isArray(parsed) && parsed.length === 100 ? parsed : generatedLevels;
-
-    if (cachedLevels !== parsed) {
-      fs.writeFileSync(dataPath, JSON.stringify(generatedLevels, null, 2));
+    if (Array.isArray(parsed) && parsed.length === 100) {
+      cachedLevels = parsed;
+      return cachedLevels;
     }
+
+    cachedLevels = generatedLevels;
+    writeLevelFile(generatedLevels);
   } catch (_error) {
     cachedLevels = generatedLevels;
-    fs.writeFileSync(dataPath, JSON.stringify(generatedLevels, null, 2));
+    writeLevelFile(generatedLevels);
   }
 
   return cachedLevels;
@@ -91,4 +102,3 @@ module.exports = {
   ensureLevelData,
   getLevelById,
 };
-

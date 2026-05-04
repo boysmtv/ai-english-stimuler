@@ -1,53 +1,100 @@
 function resolveApiBaseUrl() {
-  if (import.meta.env.VITE_API_BASE_URL) {
-    return import.meta.env.VITE_API_BASE_URL;
+  const configuredBaseUrl = import.meta.env.VITE_API_BASE_URL?.trim();
+
+  if (configuredBaseUrl) {
+    return configuredBaseUrl.replace(/\/+$/, "");
   }
 
-  if (typeof window !== "undefined") {
-    const protocol = window.location.protocol || "http:";
-    const hostname = window.location.hostname || "localhost";
-    return `${protocol}//${hostname}:4000`;
-  }
-
-  return "http://localhost:4000";
+  return "/api";
 }
 
 const API_BASE_URL = resolveApiBaseUrl();
 
+export function getApiBaseUrl() {
+  if (typeof window === "undefined") {
+    return API_BASE_URL;
+  }
+
+  try {
+    return new URL(API_BASE_URL, window.location.origin).toString().replace(/\/+$/, "");
+  } catch (_error) {
+    return API_BASE_URL;
+  }
+}
+
+export async function getHealth() {
+  return requestJson("/health", {
+    method: "GET",
+  });
+}
+
 async function parseResponse(response) {
-  const payload = await response.json().catch(() => ({}));
+  const raw = await response.text();
+  let payload = {};
+
+  if (raw) {
+    try {
+      payload = JSON.parse(raw);
+    } catch (_error) {
+      payload = {};
+    }
+  }
 
   if (!response.ok) {
-    throw new Error(payload.message || "Request failed.");
+    const fallbackMessage = raw?.trim().startsWith("<")
+      ? `Request failed with status ${response.status}.`
+      : raw;
+
+    throw new Error(payload.message || fallbackMessage || `Request failed with status ${response.status}.`);
   }
 
   return payload;
 }
 
-export async function getLevel(levelId, focus) {
-  const url = new URL(`${API_BASE_URL}/level/${levelId}`);
+async function requestJson(path, options = {}) {
+  const headers = new Headers(options.headers || {});
 
-  if (focus) {
-    url.searchParams.set("focus", focus);
+  if (options.body && !headers.has("Content-Type")) {
+    headers.set("Content-Type", "application/json");
   }
 
-  const response = await fetch(url);
+  let response;
+
+  try {
+    response = await fetch(`${API_BASE_URL}${path}`, {
+      ...options,
+      headers,
+    });
+  } catch (_error) {
+    throw new Error(
+      `Cannot connect to trainer API at ${getApiBaseUrl()}. Start the local backend or deploy the /api functions and try again.`,
+    );
+  }
+
   return parseResponse(response);
 }
 
-export async function analyzeAttempt({ level, audioBlob, transcript }) {
-  const formData = new FormData();
-  formData.append("levelId", String(level.level));
-  formData.append("transcript", transcript || "");
+export async function getLevel(levelId, focus) {
+  const params = new URLSearchParams();
 
-  if (audioBlob) {
-    formData.append("audio", audioBlob, `level-${level.level}.webm`);
+  if (focus) {
+    params.set("focus", focus);
   }
 
-  const response = await fetch(`${API_BASE_URL}/analyze`, {
-    method: "POST",
-    body: formData,
-  });
+  const query = params.toString();
 
-  return parseResponse(response);
+  return requestJson(`/level/${levelId}${query ? `?${query}` : ""}`, {
+    method: "GET",
+  });
+}
+
+export async function analyzeAttempt({ level, transcript, audioMetrics }) {
+  return requestJson("/analyze", {
+    method: "POST",
+    body: JSON.stringify({
+      levelId: level.level,
+      transcript: transcript || "",
+      audioMetrics: audioMetrics || null,
+    }),
+  });
 }

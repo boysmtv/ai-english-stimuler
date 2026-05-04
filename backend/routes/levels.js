@@ -1,22 +1,19 @@
 const express = require("express");
 
-const { getLevelById } = require("../services/levelService");
+const { getLevelPayload } = require("../services/apiService");
 
 const router = express.Router();
 
-router.get("/:id", (req, res) => {
-  const levelId = Number(req.params.id);
-  const focus = typeof req.query.focus === "string" ? req.query.focus : null;
-  const level = getLevelById(levelId, { focus });
-
-  if (!level) {
-    return res.status(404).json({
-      message: `Level ${levelId} was not found.`,
+router.get("/:id", (req, res, next) => {
+  try {
+    const level = getLevelPayload(req.params.id, {
+      focus: req.query.focus,
     });
-  }
 
-  return res.json(level);
+    return res.json(level);
+  } catch (error) {
+    return next(error);
+  }
 });
 
 module.exports = router;
-

@@ -2,7 +2,7 @@
 
 :root {
   color-scheme: light;
-  font-family: Aptos, "Segoe UI Variable", "Trebuchet MS", sans-serif;
+  font-family: "Aptos Display", Aptos, "Segoe UI Variable", "Trebuchet MS", sans-serif;
   font-synthesis: none;
   line-height: 1.5;
   font-weight: 400;
@@ -10,8 +10,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background:
-    radial-gradient(circle at top left, rgba(255, 250, 240, 0.98) 0%, rgba(248, 238, 223, 0.92) 42%, rgba(234, 222, 205, 0.92) 100%);
-  color: #201a13;
+    radial-gradient(circle at top left, rgba(255, 245, 232, 0.98) 0%, rgba(246, 235, 223, 0.92) 38%, rgba(231, 220, 212, 0.92) 100%);
+  color: #201914;
 }
 
 * {
@@ -29,9 +29,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.85), transparent 34%),
-    radial-gradient(circle at 90% 20%, rgba(255, 215, 180, 0.55), transparent 25%),
-    linear-gradient(145deg, #f8efe5 0%, #efe4d5 100%);
+    radial-gradient(circle at 12% 12%, rgba(255, 255, 255, 0.88), transparent 28%),
+    radial-gradient(circle at 86% 18%, rgba(255, 187, 131, 0.5), transparent 20%),
+    radial-gradient(circle at 82% 80%, rgba(191, 225, 255, 0.26), transparent 18%),
+    linear-gradient(145deg, #f8eee2 0%, #eee0d1 52%, #e8ded6 100%);
 }
 
 button,
@@ -39,4 +40,3 @@ input,
 textarea {
   font: inherit;
 }
-

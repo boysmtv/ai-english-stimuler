@@ -1,7 +1,8 @@
 import { startTransition, useEffect, useState } from "react";
 
 import Feedback from "./components/Feedback.jsx";
-import { analyzeAttempt, getLevel } from "./lib/api.js";
+import { analyzeAudioBlob } from "./lib/audioAnalysis.js";
+import { analyzeAttempt, getApiBaseUrl, getHealth, getLevel } from "./lib/api.js";
 import { createDefaultProgress, evaluateAttempt, loadProgress, saveProgress } from "./lib/progress.js";
 import Practice from "./pages/Practice.jsx";
 
@@ -14,20 +15,35 @@ function App() {
   const [loadingLevel, setLoadingLevel] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
+  const [serverCapabilities, setServerCapabilities] = useState({
+    localOnly: true,
+    cloudCalls: false,
+    audioMetrics: true,
+    liveMicNeedsHttps: true,
+    transcriptRequiredForGrammar: true,
+  });
 
   async function loadLevel(levelNumber, focus) {
     setLoadingLevel(true);
     setError("");
 
     try {
-      const nextLevel = await getLevel(levelNumber, focus);
+      const [health, nextLevel] = await Promise.all([
+        getHealth().catch(() => null),
+        getLevel(levelNumber, focus),
+      ]);
 
       startTransition(() => {
         setLevel(nextLevel);
         setFeedback(null);
         setOutcome(null);
       });
+
+      if (health?.capabilities) {
+        setServerCapabilities(health.capabilities);
+      }
     } catch (loadError) {
+      setLevel(null);
       setError(loadError.message || "Unable to load the next level.");
     } finally {
       setLoadingLevel(false);
@@ -57,8 +73,8 @@ function App() {
     try {
       const analysis = await analyzeAttempt({
         level,
-        audioBlob: recording.audioBlob,
         transcript: recording.transcript,
+        audioMetrics: await analyzeAudioBlob(recording.audioBlob, recording.transcript),
       });
 
       const nextOutcome = evaluateAttempt(progress, analysis);
@@ -108,6 +124,7 @@ function App() {
         outcome={outcome}
         progress={progress}
         recordingUrl={recordingUrl}
+        serverCapabilities={serverCapabilities}
         onContinue={handleContinue}
         onReset={handleReset}
       />
@@ -121,7 +138,10 @@ function App() {
       loadingLevel={loadingLevel}
       progress={progress}
       submitting={submitting}
+      apiBaseUrl={getApiBaseUrl()}
+      serverCapabilities={serverCapabilities}
       onReset={handleReset}
+      onRetry={() => loadLevel(progress.level, progress.scheduledFocus)}
       onSubmit={handleAttempt}
     />
   );

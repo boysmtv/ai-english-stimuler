@@ -6,11 +6,13 @@ const os = require("os");
 
 const analyzeRouter = require("./routes/analyze");
 const levelsRouter = require("./routes/levels");
+const { getHealthPayload } = require("./services/apiService");
 const { ensureLevelData } = require("./services/levelService");
 
 const app = express();
 const host = process.env.HOST || "0.0.0.0";
 const port = Number(process.env.PORT || 4000);
+const apiRouter = express.Router();
 
 ensureLevelData();
 
@@ -21,13 +23,16 @@ app.use(
 );
 app.use(express.json({ limit: "2mb" }));
 
-app.get("/health", (_req, res) => {
-  res.json({
-    status: "ok",
-    service: "AI English Speaking Trainer API",
-  });
+apiRouter.get("/health", (_req, res) => {
+  res.json(getHealthPayload());
 });
+apiRouter.use("/level", levelsRouter);
+apiRouter.use("/analyze", analyzeRouter);
 
+app.use("/api", apiRouter);
+app.get("/health", (_req, res) => {
+  res.json(getHealthPayload());
+});
 app.use("/level", levelsRouter);
 app.use("/analyze", analyzeRouter);
 
