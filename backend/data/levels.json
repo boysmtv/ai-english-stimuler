@@ -1,0 +1,1602 @@
+[
+  {
+    "level": 1,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Introduction",
+    "speaking": "Say: My name is ____. Keep it short and clear.",
+    "expectedAnswer": "My name is ____.",
+    "grammar": "Use 'is' in 'My name is ...'",
+    "listening": "Listen and repeat: Hello, my name is Emma.",
+    "listeningText": "Hello, my name is Emma.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 2,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Countries",
+    "speaking": "Say where you are from. Keep it short and clear.",
+    "expectedAnswer": "I am from ____.",
+    "grammar": "Use 'am' with I",
+    "listening": "Listen and repeat: I am from Thailand.",
+    "listeningText": "I am from Thailand.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 3,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Age",
+    "speaking": "Say your age. Keep it short and clear.",
+    "expectedAnswer": "I am ____ years old.",
+    "grammar": "Use 'am' with age statements",
+    "listening": "Listen and repeat: I am 18 years old.",
+    "listeningText": "I am 18 years old.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 4,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Feelings",
+    "speaking": "Say how you feel today. Keep it short and clear.",
+    "expectedAnswer": "I feel happy today.",
+    "grammar": "Use a simple feeling adjective",
+    "listening": "Listen and repeat: I feel calm today.",
+    "listeningText": "I feel calm today.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 5,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Family",
+    "speaking": "Introduce one family member. Keep it short and clear.",
+    "expectedAnswer": "This is my brother.",
+    "grammar": "Use 'this is' for introductions",
+    "listening": "Listen and repeat: This is my sister Anna.",
+    "listeningText": "This is my sister Anna.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 6,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Home",
+    "speaking": "Describe where you live. Keep it short and clear.",
+    "expectedAnswer": "I live in a small house.",
+    "grammar": "Use present simple for facts",
+    "listening": "Listen and repeat: I live in a small apartment.",
+    "listeningText": "I live in a small apartment.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 7,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Daily routine",
+    "speaking": "Say one morning activity. Keep it short and clear.",
+    "expectedAnswer": "I wake up at seven.",
+    "grammar": "Use present simple for routines",
+    "listening": "Listen and repeat: I eat breakfast at seven.",
+    "listeningText": "I eat breakfast at seven.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 8,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Food",
+    "speaking": "Say one food you like. Keep it short and clear.",
+    "expectedAnswer": "I like rice and chicken.",
+    "grammar": "Use like + noun",
+    "listening": "Listen and repeat: I like noodles for lunch.",
+    "listeningText": "I like noodles for lunch.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 9,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Colors",
+    "speaking": "Describe an object with a color. Keep it short and clear.",
+    "expectedAnswer": "My bag is blue.",
+    "grammar": "Use 'is' with a singular noun",
+    "listening": "Listen and repeat: My phone is black.",
+    "listeningText": "My phone is black.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 10,
+    "band": "Beginner",
+    "stage": 1,
+    "topic": "Weather",
+    "speaking": "Describe today's weather. Keep it short and clear.",
+    "expectedAnswer": "Today is sunny.",
+    "grammar": "Use 'is' with weather adjectives",
+    "listening": "Listen and repeat: Today is rainy and cool.",
+    "listeningText": "Today is rainy and cool.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 11,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Introduction",
+    "speaking": "Say: My name is ____. Add one more detail in a second sentence.",
+    "expectedAnswer": "My name is ____.",
+    "grammar": "Use 'is' in 'My name is ...'. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Hello, my name is Emma.",
+    "listeningText": "Hello, my name is Emma.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 12,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Countries",
+    "speaking": "Say where you are from. Add one more detail in a second sentence.",
+    "expectedAnswer": "I am from ____.",
+    "grammar": "Use 'am' with I. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I am from Thailand.",
+    "listeningText": "I am from Thailand.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 13,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Age",
+    "speaking": "Say your age. Add one more detail in a second sentence.",
+    "expectedAnswer": "I am ____ years old.",
+    "grammar": "Use 'am' with age statements. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I am 18 years old.",
+    "listeningText": "I am 18 years old.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 14,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Feelings",
+    "speaking": "Say how you feel today. Add one more detail in a second sentence.",
+    "expectedAnswer": "I feel happy today.",
+    "grammar": "Use a simple feeling adjective. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I feel calm today.",
+    "listeningText": "I feel calm today.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 15,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Family",
+    "speaking": "Introduce one family member. Add one more detail in a second sentence.",
+    "expectedAnswer": "This is my brother.",
+    "grammar": "Use 'this is' for introductions. Add one short supporting sentence.",
+    "listening": "Listen and repeat: This is my sister Anna.",
+    "listeningText": "This is my sister Anna.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 16,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Home",
+    "speaking": "Describe where you live. Add one more detail in a second sentence.",
+    "expectedAnswer": "I live in a small house.",
+    "grammar": "Use present simple for facts. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I live in a small apartment.",
+    "listeningText": "I live in a small apartment.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 17,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Daily routine",
+    "speaking": "Say one morning activity. Add one more detail in a second sentence.",
+    "expectedAnswer": "I wake up at seven.",
+    "grammar": "Use present simple for routines. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I eat breakfast at seven.",
+    "listeningText": "I eat breakfast at seven.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 18,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Food",
+    "speaking": "Say one food you like. Add one more detail in a second sentence.",
+    "expectedAnswer": "I like rice and chicken.",
+    "grammar": "Use like + noun. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I like noodles for lunch.",
+    "listeningText": "I like noodles for lunch.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 19,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Colors",
+    "speaking": "Describe an object with a color. Add one more detail in a second sentence.",
+    "expectedAnswer": "My bag is blue.",
+    "grammar": "Use 'is' with a singular noun. Add one short supporting sentence.",
+    "listening": "Listen and repeat: My phone is black.",
+    "listeningText": "My phone is black.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 20,
+    "band": "Beginner",
+    "stage": 2,
+    "topic": "Weather",
+    "speaking": "Describe today's weather. Add one more detail in a second sentence.",
+    "expectedAnswer": "Today is sunny.",
+    "grammar": "Use 'is' with weather adjectives. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Today is rainy and cool.",
+    "listeningText": "Today is rainy and cool.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 21,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "Greeting friends",
+    "speaking": "Greet a friend and ask one question. Keep it short and clear.",
+    "expectedAnswer": "Hi, how are you today?",
+    "grammar": "Use a simple present-tense question",
+    "listening": "Listen and repeat: Hi, how was your day?",
+    "listeningText": "Hi, how was your day?",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 22,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "Ordering drinks",
+    "speaking": "Order a drink politely. Keep it short and clear.",
+    "expectedAnswer": "Can I have a coffee, please?",
+    "grammar": "Use can I have for polite requests",
+    "listening": "Listen and repeat: Can I have iced tea, please?",
+    "listeningText": "Can I have iced tea, please?",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 23,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "Asking directions",
+    "speaking": "Ask how to get somewhere. Keep it short and clear.",
+    "expectedAnswer": "How can I get to the station?",
+    "grammar": "Use how can I get to",
+    "listening": "Listen and repeat: Where is the nearest bank?",
+    "listeningText": "Where is the nearest bank?",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 24,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "Shopping",
+    "speaking": "Ask the price of an item. Keep it short and clear.",
+    "expectedAnswer": "How much is this shirt?",
+    "grammar": "Use how much is for one item",
+    "listening": "Listen and repeat: How much are these shoes?",
+    "listeningText": "How much are these shoes?",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 25,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "Making plans",
+    "speaking": "Invite someone to do something. Keep it short and clear.",
+    "expectedAnswer": "Do you want to study tonight?",
+    "grammar": "Use do you want to + verb",
+    "listening": "Listen and repeat: Do you want to watch a movie?",
+    "listeningText": "Do you want to watch a movie?",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 26,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "At work",
+    "speaking": "Describe one task at work. Keep it short and clear.",
+    "expectedAnswer": "I answer emails in the morning.",
+    "grammar": "Use present simple for work tasks",
+    "listening": "Listen and repeat: I join meetings every Monday.",
+    "listeningText": "I join meetings every Monday.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 27,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "Transportation",
+    "speaking": "Explain how you go somewhere. Keep it short and clear.",
+    "expectedAnswer": "I go to work by bus.",
+    "grammar": "Use by + transport",
+    "listening": "Listen and repeat: She goes to school by train.",
+    "listeningText": "She goes to school by train.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 28,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "Free time",
+    "speaking": "Talk about one hobby. Keep it short and clear.",
+    "expectedAnswer": "I play badminton on weekends.",
+    "grammar": "Use present simple for habits",
+    "listening": "Listen and repeat: He reads comics after dinner.",
+    "listeningText": "He reads comics after dinner.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 29,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "Restaurant",
+    "speaking": "Order a meal and a drink. Keep it short and clear.",
+    "expectedAnswer": "I would like fried rice and water.",
+    "grammar": "Use would like for polite ordering",
+    "listening": "Listen and repeat: I would like soup and tea.",
+    "listeningText": "I would like soup and tea.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 30,
+    "band": "Basic Conversation",
+    "stage": 1,
+    "topic": "Phone calls",
+    "speaking": "Start a short phone call. Keep it short and clear.",
+    "expectedAnswer": "Hello, this is Nina speaking.",
+    "grammar": "Use this is when identifying yourself",
+    "listening": "Listen and repeat: Hello, may I speak to Tom?",
+    "listeningText": "Hello, may I speak to Tom?",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 31,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "Greeting friends",
+    "speaking": "Greet a friend and ask one question. Add one more detail in a second sentence.",
+    "expectedAnswer": "Hi, how are you today?",
+    "grammar": "Use a simple present-tense question. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Hi, how was your day?",
+    "listeningText": "Hi, how was your day?",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 32,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "Ordering drinks",
+    "speaking": "Order a drink politely. Add one more detail in a second sentence.",
+    "expectedAnswer": "Can I have a coffee, please?",
+    "grammar": "Use can I have for polite requests. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Can I have iced tea, please?",
+    "listeningText": "Can I have iced tea, please?",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 33,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "Asking directions",
+    "speaking": "Ask how to get somewhere. Add one more detail in a second sentence.",
+    "expectedAnswer": "How can I get to the station?",
+    "grammar": "Use how can I get to. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Where is the nearest bank?",
+    "listeningText": "Where is the nearest bank?",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 34,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "Shopping",
+    "speaking": "Ask the price of an item. Add one more detail in a second sentence.",
+    "expectedAnswer": "How much is this shirt?",
+    "grammar": "Use how much is for one item. Add one short supporting sentence.",
+    "listening": "Listen and repeat: How much are these shoes?",
+    "listeningText": "How much are these shoes?",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 35,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "Making plans",
+    "speaking": "Invite someone to do something. Add one more detail in a second sentence.",
+    "expectedAnswer": "Do you want to study tonight?",
+    "grammar": "Use do you want to + verb. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Do you want to watch a movie?",
+    "listeningText": "Do you want to watch a movie?",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 36,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "At work",
+    "speaking": "Describe one task at work. Add one more detail in a second sentence.",
+    "expectedAnswer": "I answer emails in the morning.",
+    "grammar": "Use present simple for work tasks. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I join meetings every Monday.",
+    "listeningText": "I join meetings every Monday.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 37,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "Transportation",
+    "speaking": "Explain how you go somewhere. Add one more detail in a second sentence.",
+    "expectedAnswer": "I go to work by bus.",
+    "grammar": "Use by + transport. Add one short supporting sentence.",
+    "listening": "Listen and repeat: She goes to school by train.",
+    "listeningText": "She goes to school by train.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 38,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "Free time",
+    "speaking": "Talk about one hobby. Add one more detail in a second sentence.",
+    "expectedAnswer": "I play badminton on weekends.",
+    "grammar": "Use present simple for habits. Add one short supporting sentence.",
+    "listening": "Listen and repeat: He reads comics after dinner.",
+    "listeningText": "He reads comics after dinner.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 39,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "Restaurant",
+    "speaking": "Order a meal and a drink. Add one more detail in a second sentence.",
+    "expectedAnswer": "I would like fried rice and water.",
+    "grammar": "Use would like for polite ordering. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I would like soup and tea.",
+    "listeningText": "I would like soup and tea.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 40,
+    "band": "Basic Conversation",
+    "stage": 2,
+    "topic": "Phone calls",
+    "speaking": "Start a short phone call. Add one more detail in a second sentence.",
+    "expectedAnswer": "Hello, this is Nina speaking.",
+    "grammar": "Use this is when identifying yourself. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Hello, may I speak to Tom?",
+    "listeningText": "Hello, may I speak to Tom?",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 41,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Past weekend",
+    "speaking": "Talk about what you did last weekend. Keep it short and clear.",
+    "expectedAnswer": "I visited my cousin and cooked dinner.",
+    "grammar": "Use past simple verbs",
+    "listening": "Listen and repeat: I watched a film and relaxed at home.",
+    "listeningText": "I watched a film and relaxed at home.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 42,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Travel story",
+    "speaking": "Describe a short travel experience. Keep it short and clear.",
+    "expectedAnswer": "I went to Bali and stayed near the beach.",
+    "grammar": "Use past simple with time order",
+    "listening": "Listen and repeat: We took a train and arrived late.",
+    "listeningText": "We took a train and arrived late.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 43,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Learning goals",
+    "speaking": "Explain what you want to improve. Keep it short and clear.",
+    "expectedAnswer": "I want to speak more clearly in meetings.",
+    "grammar": "Use want to + verb",
+    "listening": "Listen and repeat: I want to improve my listening skills.",
+    "listeningText": "I want to improve my listening skills.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 44,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Comparing things",
+    "speaking": "Compare two options. Keep it short and clear.",
+    "expectedAnswer": "The blue plan is cheaper than the gold plan.",
+    "grammar": "Use comparative adjectives",
+    "listening": "Listen and repeat: This route is faster than the old one.",
+    "listeningText": "This route is faster than the old one.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 45,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Health habits",
+    "speaking": "Describe one healthy habit. Keep it short and clear.",
+    "expectedAnswer": "I try to drink more water every day.",
+    "grammar": "Use try to + verb",
+    "listening": "Listen and repeat: She tries to sleep before eleven.",
+    "listeningText": "She tries to sleep before eleven.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 46,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Problem solving",
+    "speaking": "Explain a small problem and solution. Keep it short and clear.",
+    "expectedAnswer": "My laptop was slow, so I restarted it.",
+    "grammar": "Use so to connect cause and result",
+    "listening": "Listen and repeat: The shop was closed, so we went home.",
+    "listeningText": "The shop was closed, so we went home.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 47,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Opinions",
+    "speaking": "Give a simple opinion with a reason. Keep it short and clear.",
+    "expectedAnswer": "I think online classes are useful because they save time.",
+    "grammar": "Use because to support an opinion",
+    "listening": "Listen and repeat: I think public parks are important because they help people relax.",
+    "listeningText": "I think public parks are important because they help people relax.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 48,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Work updates",
+    "speaking": "Share a short project update. Keep it short and clear.",
+    "expectedAnswer": "We finished the first draft and sent it today.",
+    "grammar": "Use past simple for completed actions",
+    "listening": "Listen and repeat: Our team solved the main bug this morning.",
+    "listeningText": "Our team solved the main bug this morning.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 49,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Future plans",
+    "speaking": "Talk about next month. Keep it short and clear.",
+    "expectedAnswer": "I am going to start a new course next month.",
+    "grammar": "Use be going to for plans",
+    "listening": "Listen and repeat: They are going to move next year.",
+    "listeningText": "They are going to move next year.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 50,
+    "band": "Intermediate",
+    "stage": 1,
+    "topic": "Advice",
+    "speaking": "Give one suggestion to a friend. Keep it short and clear.",
+    "expectedAnswer": "You should practice a little every day.",
+    "grammar": "Use should for advice",
+    "listening": "Listen and repeat: You should take a short break first.",
+    "listeningText": "You should take a short break first.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 51,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Past weekend",
+    "speaking": "Talk about what you did last weekend. Add one more detail in a second sentence.",
+    "expectedAnswer": "I visited my cousin and cooked dinner.",
+    "grammar": "Use past simple verbs. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I watched a film and relaxed at home.",
+    "listeningText": "I watched a film and relaxed at home.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 52,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Travel story",
+    "speaking": "Describe a short travel experience. Add one more detail in a second sentence.",
+    "expectedAnswer": "I went to Bali and stayed near the beach.",
+    "grammar": "Use past simple with time order. Add one short supporting sentence.",
+    "listening": "Listen and repeat: We took a train and arrived late.",
+    "listeningText": "We took a train and arrived late.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 53,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Learning goals",
+    "speaking": "Explain what you want to improve. Add one more detail in a second sentence.",
+    "expectedAnswer": "I want to speak more clearly in meetings.",
+    "grammar": "Use want to + verb. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I want to improve my listening skills.",
+    "listeningText": "I want to improve my listening skills.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 54,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Comparing things",
+    "speaking": "Compare two options. Add one more detail in a second sentence.",
+    "expectedAnswer": "The blue plan is cheaper than the gold plan.",
+    "grammar": "Use comparative adjectives. Add one short supporting sentence.",
+    "listening": "Listen and repeat: This route is faster than the old one.",
+    "listeningText": "This route is faster than the old one.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 55,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Health habits",
+    "speaking": "Describe one healthy habit. Add one more detail in a second sentence.",
+    "expectedAnswer": "I try to drink more water every day.",
+    "grammar": "Use try to + verb. Add one short supporting sentence.",
+    "listening": "Listen and repeat: She tries to sleep before eleven.",
+    "listeningText": "She tries to sleep before eleven.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 56,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Problem solving",
+    "speaking": "Explain a small problem and solution. Add one more detail in a second sentence.",
+    "expectedAnswer": "My laptop was slow, so I restarted it.",
+    "grammar": "Use so to connect cause and result. Add one short supporting sentence.",
+    "listening": "Listen and repeat: The shop was closed, so we went home.",
+    "listeningText": "The shop was closed, so we went home.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 57,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Opinions",
+    "speaking": "Give a simple opinion with a reason. Add one more detail in a second sentence.",
+    "expectedAnswer": "I think online classes are useful because they save time.",
+    "grammar": "Use because to support an opinion. Add one short supporting sentence.",
+    "listening": "Listen and repeat: I think public parks are important because they help people relax.",
+    "listeningText": "I think public parks are important because they help people relax.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 58,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Work updates",
+    "speaking": "Share a short project update. Add one more detail in a second sentence.",
+    "expectedAnswer": "We finished the first draft and sent it today.",
+    "grammar": "Use past simple for completed actions. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Our team solved the main bug this morning.",
+    "listeningText": "Our team solved the main bug this morning.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 59,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Future plans",
+    "speaking": "Talk about next month. Add one more detail in a second sentence.",
+    "expectedAnswer": "I am going to start a new course next month.",
+    "grammar": "Use be going to for plans. Add one short supporting sentence.",
+    "listening": "Listen and repeat: They are going to move next year.",
+    "listeningText": "They are going to move next year.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 60,
+    "band": "Intermediate",
+    "stage": 2,
+    "topic": "Advice",
+    "speaking": "Give one suggestion to a friend. Add one more detail in a second sentence.",
+    "expectedAnswer": "You should practice a little every day.",
+    "grammar": "Use should for advice. Add one short supporting sentence.",
+    "listening": "Listen and repeat: You should take a short break first.",
+    "listeningText": "You should take a short break first.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 61,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Work balance",
+    "speaking": "Share your view about work-life balance. Keep it short and clear.",
+    "expectedAnswer": "I believe balance matters because rest improves focus.",
+    "grammar": "Use a clear opinion plus one reason",
+    "listening": "Listen and repeat: Flexible hours can reduce stress for many workers.",
+    "listeningText": "Flexible hours can reduce stress for many workers.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 62,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Technology",
+    "speaking": "Discuss one benefit and one risk of technology. Keep it short and clear.",
+    "expectedAnswer": "Technology saves time, but it can also distract people.",
+    "grammar": "Use contrast with but",
+    "listening": "Listen and repeat: Social media connects people, but it can spread false news.",
+    "listeningText": "Social media connects people, but it can spread false news.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 63,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Education",
+    "speaking": "Explain what makes a class effective. Keep it short and clear.",
+    "expectedAnswer": "A good class is interactive and gives clear examples.",
+    "grammar": "Use parallel adjectives clearly",
+    "listening": "Listen and repeat: Effective teachers ask questions and guide discussion.",
+    "listeningText": "Effective teachers ask questions and guide discussion.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 64,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Teamwork",
+    "speaking": "Describe a strong team. Keep it short and clear.",
+    "expectedAnswer": "A strong team communicates openly and supports each member.",
+    "grammar": "Use present simple for general truths",
+    "listening": "Listen and repeat: Good teams share goals and solve problems together.",
+    "listeningText": "Good teams share goals and solve problems together.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 65,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Environment",
+    "speaking": "Talk about one practical way to help the environment. Keep it short and clear.",
+    "expectedAnswer": "People can reduce waste by reusing everyday items.",
+    "grammar": "Use can to describe practical actions",
+    "listening": "Listen and repeat: Cities can improve air quality by planting more trees.",
+    "listeningText": "Cities can improve air quality by planting more trees.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 66,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Customer service",
+    "speaking": "Explain what good service means. Keep it short and clear.",
+    "expectedAnswer": "Good service means listening carefully and responding quickly.",
+    "grammar": "Use gerunds after means",
+    "listening": "Listen and repeat: Great service includes patience, clarity, and respect.",
+    "listeningText": "Great service includes patience, clarity, and respect.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 67,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Remote work",
+    "speaking": "Share one challenge of remote work. Keep it short and clear.",
+    "expectedAnswer": "Remote work can feel isolating if communication is weak.",
+    "grammar": "Use can for possible effects",
+    "listening": "Listen and repeat: Remote teams need strong routines to stay aligned.",
+    "listeningText": "Remote teams need strong routines to stay aligned.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 68,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Decision making",
+    "speaking": "Explain how you make difficult decisions. Keep it short and clear.",
+    "expectedAnswer": "I compare options, ask questions, and then choose carefully.",
+    "grammar": "Use a clear sequence of verbs",
+    "listening": "Listen and repeat: She reviews the data before making a decision.",
+    "listeningText": "She reviews the data before making a decision.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 69,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Learning habits",
+    "speaking": "Discuss why habits matter. Keep it short and clear.",
+    "expectedAnswer": "Small habits matter because they build progress over time.",
+    "grammar": "Use because to explain impact",
+    "listening": "Listen and repeat: Consistent practice often leads to steady improvement.",
+    "listeningText": "Consistent practice often leads to steady improvement.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 70,
+    "band": "Discussion",
+    "stage": 1,
+    "topic": "Community",
+    "speaking": "Describe what makes a community strong. Keep it short and clear.",
+    "expectedAnswer": "A strong community helps people feel safe and connected.",
+    "grammar": "Use adjectives and complete clauses",
+    "listening": "Listen and repeat: Trust grows when neighbors help one another.",
+    "listeningText": "Trust grows when neighbors help one another.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 71,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Work balance",
+    "speaking": "Share your view about work-life balance. Add one more detail in a second sentence.",
+    "expectedAnswer": "I believe balance matters because rest improves focus.",
+    "grammar": "Use a clear opinion plus one reason. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Flexible hours can reduce stress for many workers.",
+    "listeningText": "Flexible hours can reduce stress for many workers.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 72,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Technology",
+    "speaking": "Discuss one benefit and one risk of technology. Add one more detail in a second sentence.",
+    "expectedAnswer": "Technology saves time, but it can also distract people.",
+    "grammar": "Use contrast with but. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Social media connects people, but it can spread false news.",
+    "listeningText": "Social media connects people, but it can spread false news.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 73,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Education",
+    "speaking": "Explain what makes a class effective. Add one more detail in a second sentence.",
+    "expectedAnswer": "A good class is interactive and gives clear examples.",
+    "grammar": "Use parallel adjectives clearly. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Effective teachers ask questions and guide discussion.",
+    "listeningText": "Effective teachers ask questions and guide discussion.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 74,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Teamwork",
+    "speaking": "Describe a strong team. Add one more detail in a second sentence.",
+    "expectedAnswer": "A strong team communicates openly and supports each member.",
+    "grammar": "Use present simple for general truths. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Good teams share goals and solve problems together.",
+    "listeningText": "Good teams share goals and solve problems together.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 75,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Environment",
+    "speaking": "Talk about one practical way to help the environment. Add one more detail in a second sentence.",
+    "expectedAnswer": "People can reduce waste by reusing everyday items.",
+    "grammar": "Use can to describe practical actions. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Cities can improve air quality by planting more trees.",
+    "listeningText": "Cities can improve air quality by planting more trees.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 76,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Customer service",
+    "speaking": "Explain what good service means. Add one more detail in a second sentence.",
+    "expectedAnswer": "Good service means listening carefully and responding quickly.",
+    "grammar": "Use gerunds after means. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Great service includes patience, clarity, and respect.",
+    "listeningText": "Great service includes patience, clarity, and respect.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 77,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Remote work",
+    "speaking": "Share one challenge of remote work. Add one more detail in a second sentence.",
+    "expectedAnswer": "Remote work can feel isolating if communication is weak.",
+    "grammar": "Use can for possible effects. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Remote teams need strong routines to stay aligned.",
+    "listeningText": "Remote teams need strong routines to stay aligned.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 78,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Decision making",
+    "speaking": "Explain how you make difficult decisions. Add one more detail in a second sentence.",
+    "expectedAnswer": "I compare options, ask questions, and then choose carefully.",
+    "grammar": "Use a clear sequence of verbs. Add one short supporting sentence.",
+    "listening": "Listen and repeat: She reviews the data before making a decision.",
+    "listeningText": "She reviews the data before making a decision.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 79,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Learning habits",
+    "speaking": "Discuss why habits matter. Add one more detail in a second sentence.",
+    "expectedAnswer": "Small habits matter because they build progress over time.",
+    "grammar": "Use because to explain impact. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Consistent practice often leads to steady improvement.",
+    "listeningText": "Consistent practice often leads to steady improvement.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 80,
+    "band": "Discussion",
+    "stage": 2,
+    "topic": "Community",
+    "speaking": "Describe what makes a community strong. Add one more detail in a second sentence.",
+    "expectedAnswer": "A strong community helps people feel safe and connected.",
+    "grammar": "Use adjectives and complete clauses. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Trust grows when neighbors help one another.",
+    "listeningText": "Trust grows when neighbors help one another.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 81,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Leadership",
+    "speaking": "Explain a leadership quality you admire. Keep it short and clear.",
+    "expectedAnswer": "I admire leaders who stay calm and make fair decisions.",
+    "grammar": "Use relative clauses to add detail",
+    "listening": "Listen and repeat: Strong leaders create trust by being consistent.",
+    "listeningText": "Strong leaders create trust by being consistent.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 82,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Ethics",
+    "speaking": "Discuss a simple ethical choice. Keep it short and clear.",
+    "expectedAnswer": "Honesty matters even when the truth is uncomfortable.",
+    "grammar": "Use even when to express contrast",
+    "listening": "Listen and repeat: Fair rules matter because they protect everyone.",
+    "listeningText": "Fair rules matter because they protect everyone.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 83,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Innovation",
+    "speaking": "Describe how new ideas become useful. Keep it short and clear.",
+    "expectedAnswer": "New ideas become useful when teams test and refine them.",
+    "grammar": "Use when clauses to explain process",
+    "listening": "Listen and repeat: Innovation grows when people share ideas openly.",
+    "listeningText": "Innovation grows when people share ideas openly.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 84,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Global issues",
+    "speaking": "Share a view on a global challenge. Keep it short and clear.",
+    "expectedAnswer": "Climate action requires cooperation between governments, companies, and citizens.",
+    "grammar": "Use parallel noun lists for clarity",
+    "listening": "Listen and repeat: Public health improves when reliable information reaches everyone.",
+    "listeningText": "Public health improves when reliable information reaches everyone.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 85,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Culture",
+    "speaking": "Reflect on how culture shapes communication. Keep it short and clear.",
+    "expectedAnswer": "Culture shapes communication by influencing tone, timing, and respect.",
+    "grammar": "Use by + gerund to explain method",
+    "listening": "Listen and repeat: Shared customs can make conversations smoother.",
+    "listeningText": "Shared customs can make conversations smoother.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 86,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Conflict resolution",
+    "speaking": "Explain a mature way to solve conflict. Keep it short and clear.",
+    "expectedAnswer": "People resolve conflict faster when they listen before reacting.",
+    "grammar": "Use before + clause accurately",
+    "listening": "Listen and repeat: Calm language can prevent a disagreement from growing.",
+    "listeningText": "Calm language can prevent a disagreement from growing.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 87,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Career growth",
+    "speaking": "Discuss how people grow professionally. Keep it short and clear.",
+    "expectedAnswer": "Professional growth happens when people seek feedback and act on it.",
+    "grammar": "Use clear cause-and-effect clauses",
+    "listening": "Listen and repeat: Experience becomes valuable when it leads to better judgment.",
+    "listeningText": "Experience becomes valuable when it leads to better judgment.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 88,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Critical thinking",
+    "speaking": "Explain why evidence matters in decisions. Keep it short and clear.",
+    "expectedAnswer": "Evidence matters because it reduces guesswork and bias.",
+    "grammar": "Use because to support claims precisely",
+    "listening": "Listen and repeat: Strong arguments rely on facts, not assumptions.",
+    "listeningText": "Strong arguments rely on facts, not assumptions.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 89,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Future society",
+    "speaking": "Imagine one change in the future. Keep it short and clear.",
+    "expectedAnswer": "Cities may become more walkable as people demand healthier spaces.",
+    "grammar": "Use may for thoughtful prediction",
+    "listening": "Listen and repeat: Workplaces may change as automation becomes common.",
+    "listeningText": "Workplaces may change as automation becomes common.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 90,
+    "band": "Advanced Thinking",
+    "stage": 1,
+    "topic": "Personal values",
+    "speaking": "Describe a value that guides your choices. Keep it short and clear.",
+    "expectedAnswer": "Responsibility guides my choices because it builds trust.",
+    "grammar": "Use abstract nouns with a clear reason",
+    "listening": "Listen and repeat: Patience helps people respond with care instead of anger.",
+    "listeningText": "Patience helps people respond with care instead of anger.",
+    "listeningQuestion": "Repeat the audio in one clear sentence.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 91,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Leadership",
+    "speaking": "Explain a leadership quality you admire. Add one more detail in a second sentence.",
+    "expectedAnswer": "I admire leaders who stay calm and make fair decisions.",
+    "grammar": "Use relative clauses to add detail. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Strong leaders create trust by being consistent.",
+    "listeningText": "Strong leaders create trust by being consistent.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 92,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Ethics",
+    "speaking": "Discuss a simple ethical choice. Add one more detail in a second sentence.",
+    "expectedAnswer": "Honesty matters even when the truth is uncomfortable.",
+    "grammar": "Use even when to express contrast. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Fair rules matter because they protect everyone.",
+    "listeningText": "Fair rules matter because they protect everyone.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 93,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Innovation",
+    "speaking": "Describe how new ideas become useful. Add one more detail in a second sentence.",
+    "expectedAnswer": "New ideas become useful when teams test and refine them.",
+    "grammar": "Use when clauses to explain process. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Innovation grows when people share ideas openly.",
+    "listeningText": "Innovation grows when people share ideas openly.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 94,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Global issues",
+    "speaking": "Share a view on a global challenge. Add one more detail in a second sentence.",
+    "expectedAnswer": "Climate action requires cooperation between governments, companies, and citizens.",
+    "grammar": "Use parallel noun lists for clarity. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Public health improves when reliable information reaches everyone.",
+    "listeningText": "Public health improves when reliable information reaches everyone.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 95,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Culture",
+    "speaking": "Reflect on how culture shapes communication. Add one more detail in a second sentence.",
+    "expectedAnswer": "Culture shapes communication by influencing tone, timing, and respect.",
+    "grammar": "Use by + gerund to explain method. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Shared customs can make conversations smoother.",
+    "listeningText": "Shared customs can make conversations smoother.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 96,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Conflict resolution",
+    "speaking": "Explain a mature way to solve conflict. Add one more detail in a second sentence.",
+    "expectedAnswer": "People resolve conflict faster when they listen before reacting.",
+    "grammar": "Use before + clause accurately. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Calm language can prevent a disagreement from growing.",
+    "listeningText": "Calm language can prevent a disagreement from growing.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 97,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Career growth",
+    "speaking": "Discuss how people grow professionally. Add one more detail in a second sentence.",
+    "expectedAnswer": "Professional growth happens when people seek feedback and act on it.",
+    "grammar": "Use clear cause-and-effect clauses. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Experience becomes valuable when it leads to better judgment.",
+    "listeningText": "Experience becomes valuable when it leads to better judgment.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "listening"
+    ]
+  },
+  {
+    "level": 98,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Critical thinking",
+    "speaking": "Explain why evidence matters in decisions. Add one more detail in a second sentence.",
+    "expectedAnswer": "Evidence matters because it reduces guesswork and bias.",
+    "grammar": "Use because to support claims precisely. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Strong arguments rely on facts, not assumptions.",
+    "listeningText": "Strong arguments rely on facts, not assumptions.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  },
+  {
+    "level": 99,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Future society",
+    "speaking": "Imagine one change in the future. Add one more detail in a second sentence.",
+    "expectedAnswer": "Cities may become more walkable as people demand healthier spaces.",
+    "grammar": "Use may for thoughtful prediction. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Workplaces may change as automation becomes common.",
+    "listeningText": "Workplaces may change as automation becomes common.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "fluency",
+      "pronunciation"
+    ]
+  },
+  {
+    "level": 100,
+    "band": "Advanced Thinking",
+    "stage": 2,
+    "topic": "Personal values",
+    "speaking": "Describe a value that guides your choices. Add one more detail in a second sentence.",
+    "expectedAnswer": "Responsibility guides my choices because it builds trust.",
+    "grammar": "Use abstract nouns with a clear reason. Add one short supporting sentence.",
+    "listening": "Listen and repeat: Patience helps people respond with care instead of anger.",
+    "listeningText": "Patience helps people respond with care instead of anger.",
+    "listeningQuestion": "Repeat the audio, then add one related detail of your own.",
+    "reviewFocus": [
+      "grammar",
+      "listening"
+    ]
+  }
+]
