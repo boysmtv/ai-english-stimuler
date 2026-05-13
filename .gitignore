@@ -5,3 +5,5 @@ dist/
 backend/data/*.tmp
 npm-debug.log*
 
+# ai-agent generated archives
+.ai-agent/snapshots/
