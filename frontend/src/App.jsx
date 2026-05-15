@@ -1,4 +1,4 @@
-import { startTransition, useEffect, useState } from "react";
+import { startTransition, useCallback, useEffect, useRef, useState } from "react";
 
 import Feedback from "./components/Feedback.jsx";
 import { analyzeAudioBlob } from "./lib/audioAnalysis.js";
@@ -8,6 +8,7 @@ import Practice from "./pages/Practice.jsx";
 
 function App() {
   const [progress, setProgress] = useState(() => loadProgress());
+  const initialProgressRef = useRef(progress);
   const [level, setLevel] = useState(null);
   const [feedback, setFeedback] = useState(null);
   const [outcome, setOutcome] = useState(null);
@@ -23,7 +24,7 @@ function App() {
     transcriptRequiredForGrammar: true,
   });
 
-  async function loadLevel(levelNumber, focus) {
+  const loadLevel = useCallback(async function loadLevel(levelNumber, focus) {
     setLoadingLevel(true);
     setError("");
 
@@ -48,11 +49,14 @@ function App() {
     } finally {
       setLoadingLevel(false);
     }
-  }
+  }, []);
 
   useEffect(() => {
-    loadLevel(progress.level, progress.scheduledFocus);
-  }, []);
+    const initialProgress = initialProgressRef.current;
+
+    // The first level is loaded after mount because the API is asynchronous.
+    void loadLevel(initialProgress.level, initialProgress.scheduledFocus);
+  }, [loadLevel]);
 
   useEffect(() => {
     return () => {

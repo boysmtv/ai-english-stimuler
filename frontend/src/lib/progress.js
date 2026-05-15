@@ -32,7 +32,7 @@ export function loadProgress() {
         ...(parsed.weaknesses || {}),
       },
     };
-  } catch (_error) {
+  } catch {
     return createDefaultProgress();
   }
 }
@@ -65,14 +65,16 @@ export function evaluateAttempt(progress, analysis) {
       progress.weaknesses.pronunciation + (analysis.score.pronunciation < 80 ? 1 : 0),
   };
 
-  let nextLevel = progress.level;
-  let actionLabel = "Repeat level";
-  let guidance = "Repeat this level and tighten the sentence.";
-  let streak = 0;
+  let nextLevel;
+  let actionLabel;
+  let guidance;
+  let streak;
 
   if (average < 70) {
     nextLevel = progress.level;
     streak = 0;
+    actionLabel = "Repeat level";
+    guidance = "Repeat this level and tighten the sentence.";
   } else if (average > 85) {
     nextLevel = clampLevel(progress.level + 2);
     streak = progress.streak + 1;
@@ -107,4 +109,3 @@ export function evaluateAttempt(progress, analysis) {
     nextProgress,
   };
 }
-

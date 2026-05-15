@@ -50,6 +50,7 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
   const [isProcessing, setIsProcessing] = useState(false);
   const [audioBlob, setAudioBlob] = useState(null);
   const [audioUrl, setAudioUrl] = useState("");
+  const [captureKind, setCaptureKind] = useState("audio");
   const [transcriptPreview, setTranscriptPreview] = useState("");
   const [captureLabel, setCaptureLabel] = useState("");
   const [pendingSource, setPendingSource] = useState("");
@@ -76,6 +77,7 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
 
     setAudioBlob(null);
     setAudioUrl("");
+    setCaptureKind("audio");
     setCaptureLabel("");
     setPendingSource("");
     capturedFileNameRef.current = "";
@@ -92,6 +94,7 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
     capturedFileNameRef.current = fileName;
     setAudioBlob(nextBlob);
     setAudioUrl(nextAudioUrl);
+    setCaptureKind(nextBlob.type?.startsWith("video/") ? "video" : "audio");
     setCaptureLabel(fileName);
     setPendingSource(sourceLabel);
   }
@@ -196,7 +199,14 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
   }
 
   async function handleAnalyze() {
-    if (disabled || isProcessing || (!audioBlob && !transcriptRef.current.trim())) {
+    const transcript = transcriptRef.current.trim();
+
+    if (disabled || isProcessing || (!audioBlob && !transcript)) {
+      return;
+    }
+
+    if (serverCapabilities.transcriptRequiredForGrammar && !transcript) {
+      setError("Type the sentence you said before analyzing. iPhone fallback video does not create a transcript automatically.");
       return;
     }
 
@@ -206,7 +216,7 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
     try {
       await onComplete({
         audioBlob,
-        transcript: transcriptRef.current.trim(),
+        transcript,
       });
     } finally {
       setIsProcessing(false);
@@ -242,11 +252,14 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
   const captureHint = serverCapabilities.localOnly
     ? "Local-only mode is active. Audio stays on your device and only metrics plus text are scored."
     : "Coach mode is active.";
+  const transcriptText = transcriptPreview.trim();
+  const transcriptRequired = Boolean(serverCapabilities.transcriptRequiredForGrammar);
+  const canAnalyze = Boolean(!disabled && !isProcessing && (audioBlob || transcriptText) && (!transcriptRequired || transcriptText));
 
   return (
     <div className="space-y-5">
       <input
-        accept="audio/*,.m4a,.mp3,.wav,.webm"
+        accept="audio/*,video/*,.m4a,.mp3,.wav,.webm,.ogg,.mp4,.mov"
         capture
         className="hidden"
         onChange={handleFileChange}
@@ -288,7 +301,7 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
           <div className="rounded-[1.6rem] border border-stone-200 bg-white/80 p-5">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-500">Fallback for iPhone and Safari</p>
             <p className="mt-3 text-sm leading-6 text-stone-700">
-              If live mic is blocked on mobile, use the device recorder. Then type the sentence you said for local grammar coaching.
+              If live mic is blocked on mobile, use the device recorder or a short video capture. Then type the sentence you said for local grammar coaching.
             </p>
             <button
               className="mt-5 w-full rounded-full border border-stone-300 px-5 py-3 text-sm font-semibold text-stone-900 transition hover:border-stone-500 hover:bg-stone-50"
@@ -300,7 +313,7 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
             </button>
 
             <div className="mt-5 grid gap-2 text-sm text-stone-600">
-              <p>1. Record or upload your voice note.</p>
+              <p>1. Record or upload your voice note or short video.</p>
               <p>2. Review the transcript if needed.</p>
               <p>3. Tap Analyze answer.</p>
             </div>
@@ -324,7 +337,11 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
             )}
           </div>
 
-          {audioUrl && (
+          {audioUrl && captureKind === "video" && (
+            <video className="mt-5 max-h-80 w-full rounded-[1rem] bg-stone-950" controls src={audioUrl} />
+          )}
+
+          {audioUrl && captureKind !== "video" && (
             <audio className="mt-5 w-full" controls src={audioUrl} />
           )}
 
@@ -333,7 +350,7 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
             <textarea
               className="mt-2 min-h-28 w-full rounded-[1.2rem] border border-stone-200 bg-stone-50/80 px-4 py-3 text-sm text-stone-800 outline-none transition focus:border-stone-400"
               onChange={handleTranscriptChange}
-              placeholder="Type the sentence you just said. In strict local-only mode, this text drives grammar correction while the browser measures pace and pauses from the audio."
+              placeholder="Type the sentence you just said. In strict local-only mode, this text drives grammar correction while the browser measures pace and pauses when the captured media can be decoded."
               value={transcriptPreview}
             />
           </label>
@@ -341,7 +358,7 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
           <div className="mt-5 flex flex-col gap-3 sm:flex-row">
             <button
               className="rounded-full bg-stone-950 px-6 py-4 text-base font-semibold text-stone-50 transition hover:bg-stone-800 disabled:cursor-not-allowed disabled:opacity-60"
-              disabled={disabled || isProcessing || (!audioBlob && !transcriptPreview.trim())}
+              disabled={!canAnalyze}
               onClick={handleAnalyze}
               type="button"
             >
@@ -370,6 +387,12 @@ export default function Mic({ disabled, onComplete, serverCapabilities }) {
       {!support.secureContext && (
         <div className="rounded-[1.4rem] border border-sky-200 bg-sky-50/80 px-4 py-3 text-sm text-sky-900">
           Browser microphone APIs generally require HTTPS or localhost. Phones on plain `http://192.168.x.x` may need the device-recorder fallback instead of live mic.
+        </div>
+      )}
+
+      {transcriptRequired && (audioBlob || audioUrl) && !transcriptText && (
+        <div className="rounded-[1.4rem] border border-amber-200 bg-amber-50/80 px-4 py-3 text-sm text-amber-900">
+          Type the sentence you said before tapping Analyze answer. The iPhone fallback records media, but this local-only version does not transcribe it automatically.
         </div>
       )}
 

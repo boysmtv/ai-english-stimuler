@@ -100,4 +100,25 @@ After deploy, the app automatically uses:
 
 - Desktop browsers can use the live mic directly when permission is granted.
 - iPhone and Safari may block live mic on plain LAN `http://` pages because browser mic APIs often need HTTPS or localhost.
-- For those devices, use the built-in device-recorder fallback, then type the sentence you said.
+- For those devices, use the built-in device-recorder fallback. On iPhone this may mean recording a short video, then typing the sentence you said before tapping Analyze.
+
+## Browser and permission compatibility
+
+The app is designed to keep the learner moving even when a browser blocks the ideal mic flow.
+
+Recommended paths:
+
+- Windows Chrome or Edge on `localhost`: live mic recording should work after the user grants microphone permission.
+- Windows Firefox on `localhost`: live mic should work when `MediaRecorder` is available for the selected audio format.
+- Android Chrome on HTTPS or supported local contexts: live mic can work after permission is granted.
+- Android browsers on plain LAN HTTP: use live mic when available, otherwise use the device-recorder fallback.
+- iOS Safari, Chrome, or Edge: prefer Vercel/HTTPS for live mic. On plain LAN HTTP, use the device-recorder fallback; if audio-only capture is unavailable, record a short video and type the spoken sentence before analysis.
+
+Permission behavior:
+
+- Microphone permission is requested only after the learner taps the speak button.
+- Listening prompt playback is user-triggered to avoid autoplay restrictions.
+- If live mic is unavailable, blocked, or denied, the learner can still upload or capture a voice note or short video with the device recorder.
+- Grammar feedback uses the typed transcript in local-only mode, while browser audio metrics are used for delivery feedback when audio can be decoded.
+
+For the most reliable mobile test, deploy to Vercel and open the HTTPS URL from the phone. For same-Wi-Fi development, open `http://<host-ip>:5173` and allow Windows Firewall for ports `5173` and `4000`.

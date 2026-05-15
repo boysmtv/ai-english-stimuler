@@ -99,7 +99,7 @@ export async function analyzeAudioBlob(audioBlob, transcript = "") {
       pauseCount,
       wordsPerMinute: Number(wordsPerMinute.toFixed(1)),
     };
-  } catch (_error) {
+  } catch {
     return null;
   } finally {
     await context.close().catch(() => {});

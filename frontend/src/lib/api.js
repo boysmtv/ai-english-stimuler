@@ -17,7 +17,7 @@ export function getApiBaseUrl() {
 
   try {
     return new URL(API_BASE_URL, window.location.origin).toString().replace(/\/+$/, "");
-  } catch (_error) {
+  } catch {
     return API_BASE_URL;
   }
 }
@@ -35,7 +35,7 @@ async function parseResponse(response) {
   if (raw) {
     try {
       payload = JSON.parse(raw);
-    } catch (_error) {
+    } catch {
       payload = {};
     }
   }
@@ -65,9 +65,12 @@ async function requestJson(path, options = {}) {
       ...options,
       headers,
     });
-  } catch (_error) {
+  } catch (error) {
     throw new Error(
       `Cannot connect to trainer API at ${getApiBaseUrl()}. Start the local backend or deploy the /api functions and try again.`,
+      {
+        cause: error,
+      },
     );
   }
 
