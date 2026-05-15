@@ -1,0 +1,15 @@
+{
+  "project_root": "D:\\Work\\Pribadi\\Ai\\ai-english-learn",
+  "final_project_root": "D:\\Work\\Pribadi\\Ai\\ai-english-learn",
+  "stack_id": "backend-go-gin",
+  "entrypoints": [],
+  "services": [],
+  "tests": [],
+  "docs": [
+    "frontend/README.md",
+    "README.md",
+    ".brief/brief.v1.md"
+  ],
+  "updated_at": "2026-05-15T17:07:35.053250+00:00",
+  "source_file_count": 21
+}

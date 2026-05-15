@@ -1,0 +1,241 @@
+{
+  "project_name": "ai-english-learn",
+  "project_root": "D:\\Work\\Pribadi\\Ai\\ai-english-learn",
+  "final_project_root": "D:\\Work\\Pribadi\\Ai\\ai-english-learn",
+  "problem_file": "D:\\Work\\Pribadi\\Ai\\ai-english-learn\\.brief\\brief.v1.md",
+  "problem_statement": "# AI English Speaking Trainer - Brief v1\n\n## Goal\n\nEvolve the existing AI English Speaking Trainer into a browser-compatible speaking practice app that works reliably across desktop browsers, Android browsers, and iOS browsers. The app should keep the current local-first learning loop while improving device compatibility, microphone handling, speaker/playback behavior, and fallback flows when browser permissions or platform restrictions block the ideal experience.\n\n## Existing Project Source Of \n...[truncated 7413 chars]",
+  "stack": [
+    "Go",
+    "Gin",
+    "Docker"
+  ],
+  "stack_id": "backend-go-gin",
+  "template_id": "backend-go-gin",
+  "platform": "server",
+  "domain": "backend",
+  "project_type": "backend",
+  "build_commands": [
+    "go mod tidy",
+    "go test ./...",
+    "go build ./..."
+  ],
+  "run_commands": [
+    "go run ./cmd/api"
+  ],
+  "features": [
+    "api",
+    "config",
+    "middleware",
+    "tests"
+  ],
+  "packages": [],
+  "languages": [
+    "javascript"
+  ],
+  "entrypoints": [],
+  "final_status": "approved",
+  "mode": "external_service",
+  "updated_at": "2026-05-15T17:07:35.062690+00:00",
+  "source_fingerprint": {
+    "updated_at": "2026-05-15T17:07:35.069671+00:00",
+    "file_count": 39,
+    "digest": "af1af10260ee7b7a1f3b5b15487d626a675e7152f155ddf4e6953cbe86ba830e",
+    "files": [
+      {
+        "path": ".ai-agent/memory/api_contracts.json",
+        "hash": "07ba49ffb95e7cc129b4af60ae4132c1dbcb36bd887b234786d39a188956dc2b",
+        "size_bytes": 76
+      },
+      {
+        "path": ".ai-agent/memory/architecture_map.json",
+        "hash": "3176e14e351bf934b66aff2d1ca1052cff189329807e9dd216f5cc9e3f9d48de",
+        "size_bytes": 394
+      },
+      {
+        "path": ".ai-agent/memory/change_log.json",
+        "hash": "2a3b6d10c8be8d776412ec414b250a6110cd8c55a12d5f12bda7219632a7110d",
+        "size_bytes": 2605
+      },
+      {
+        "path": ".ai-agent/memory/engineering_guidance.json",
+        "hash": "37a673d1d771cc838d49b61bd6216d5eb999c0846b591990263b7c52f07b1824",
+        "size_bytes": 3843
+      },
+      {
+        "path": ".ai-agent/memory/feature_catalog.json",
+        "hash": "e75fe83cdab01e54bbaa96ff1d94c636c9c23f02df196493a9827d2cac3db6b6",
+        "size_bytes": 157
+      },
+      {
+        "path": ".ai-agent/memory/flow_map.json",
+        "hash": "a1c27c1f6bbf3aa000e0592901273dd55d674c9eb6bd5b61f68cfde07c642037",
+        "size_bytes": 1950
+      },
+      {
+        "path": ".ai-agent/memory/project_manifest.json",
+        "hash": "e2abf246dd289053d627227a1d60b4ab72d1e8abe5ff33d3e59a0d97a24eda81",
+        "size_bytes": 7194
+      },
+      {
+        "path": ".ai-agent/memory/symbol_index.json",
+        "hash": "28e05a9493801a8dee576b79829367601ec0542f374d0d3b02fcb12baf6b0695",
+        "size_bytes": 7196
+      },
+      {
+        "path": ".brief/brief.v1.md",
+        "hash": "816c6b8660abdee3c278d17c7d2db0ff96e80223525d6c7fdec360a3cd00128a",
+        "size_bytes": 7914
+      },
+      {
+        "path": "README.md",
+        "hash": "1d53771b2a0bda496cc5486597cbad7909a9561ae90e98ae23ef876d65f93a49",
+        "size_bytes": 4409
+      },
+      {
+        "path": "backend/app.js",
+        "hash": "5fd6a933b3dc561b9c67ec0f9ed7e35a61481ad158d06e031ac064b28c9d4ee8",
+        "size_bytes": 1826
+      },
+      {
+        "path": "backend/data/levels.json",
+        "hash": "fabdee659613f2d39558f1103eb60aeb5a89a148c41623362e066e7c0475cd67",
+        "size_bytes": 60048
+      },
+      {
+        "path": "backend/package-lock.json",
+        "hash": "a656324029ca04dc7cd91275c5e4935fb6913c68527d1214238d83ccd2890761",
+        "size_bytes": 30293
+      },
+      {
+        "path": "backend/package.json",
+        "hash": "d7fdd9c0b3cad228718a913ab34e2e7a84fef8c3be1715ff8c6a3dd71bcc16db",
+        "size_bytes": 290
+      },
+      {
+        "path": "backend/routes/analyze.js",
+        "hash": "a35594e404dd79366d2030d658b318c2eab69fc9eaf8827fae3f85d50f1f86f4",
+        "size_bytes": 363
+      },
+      {
+        "path": "backend/routes/levels.js",
+        "hash": "177e5bb16f2cae8961031a5127a13e7683f0986ac10468f52280f6179d52eb6a",
+        "size_bytes": 380
+      },
+      {
+        "path": "backend/scripts/generate-levels.js",
+        "hash": "3bd673ea48b100235bc292451d94d4b4ae5e62bb84013be6e600136a7197bee3",
+        "size_bytes": 427
+      },
+      {
+        "path": "backend/services/analyzerService.js",
+        "hash": "79d2066b1598c1ed6c71e3ac0c126e72d938f3c52e86246a2baf4b6f7878383a",
+        "size_bytes": 245
+      },
+      {
+        "path": "backend/services/apiService.js",
+        "hash": "63ba384bd1696a8c6863c6f5d60786bf892f30d1ace5fdf0e6304ef240fe5bac",
+        "size_bytes": 2313
+      },
+      {
+        "path": "backend/services/levelService.js",
+        "hash": "70bedd49b0b254cee79209731bcb9ed539b022701dee5420d53cabd5b0537142",
+        "size_bytes": 2509
+      },
+      {
+        "path": "backend/services/levelTemplates.js",
+        "hash": "1fe7cf9a4400adf620b74c132059c49b8d1c99516f4318644c8181dab8e8334e",
+        "size_bytes": 15992
+      },
+      {
+        "path": "backend/services/mockCoachService.js",
+        "hash": "fafd454ea24d59faf516f7b247ac4fd9e8c2251a04e94304f791ca4b860ac6cf",
+        "size_bytes": 9373
+      },
+      {
+        "path": "backend/services/openaiCoachService.js",
+        "hash": "5d2f5bde3a9c6bcbf93bc0c19815e06d3d374e904389a9824b99eb27e3da293a",
+        "size_bytes": 2210
+      },
+      {
+        "path": "backend/services/transcriptionService.js",
+        "hash": "e437288f3dfbe56b3fffdfe8a1b89273294e67ed6ab03d00de4b15d26725058b",
+        "size_bytes": 468
+      },
+      {
+        "path": "frontend/README.md",
+        "hash": "a460b4dc7e6392e76aa54d844c9261b8db0adb7f967ba8300526456f1dcf5fb4",
+        "size_bytes": 1027
+      },
+      {
+        "path": "frontend/eslint.config.js",
+        "hash": "0197d9a843aaae267303c4d1ab1a43afad1afacc7646cdf6cf94a5af6b815fb8",
+        "size_bytes": 568
+      },
+      {
+        "path": "frontend/package-lock.json",
+        "hash": "7bfe052acd08474bb6a4d0a325c18b714338e5709dc16d3ebed045e89c339ed3",
+        "size_bytes": 95777
+      },
+      {
+        "path": "frontend/package.json",
+        "hash": "509fafa6584befde60dca8ff94c00cfce9a3b7a81dba3fcdbe22b71f9e097618",
+        "size_bytes": 669
+      },
+      {
+        "path": "frontend/src/App.jsx",
+        "hash": "29b0dbd189d6c3427b523338b89b5dd44ed58a0039f41cb57f01218a1a40c0ae",
+        "size_bytes": 4245
+      },
+      {
+        "path": "frontend/src/components/Feedback.jsx",
+        "hash": "2f6696e8358bc6de08b76a4dace887c66c77343f5268172ea587350cba9de7bc",
+        "size_bytes": 6738
+      },
+      {
+        "path": "frontend/src/components/Mic.jsx",
+        "hash": "dc0079abca454ec4fc9af19bfe6efe7bf790e522f25ff8d5f2f218b5eefc98c1",
+        "size_bytes": 13216
+      },
+      {
+        "path": "frontend/src/lib/api.js",
+        "hash": "cf30dc12dfcd74c9f4c87a2f890d0672e7b120373e07fd2fcccf9b6ba3e10241",
+        "size_bytes": 2227
+      },
+      {
+        "path": "frontend/src/lib/audioAnalysis.js",
+        "hash": "22ddc3d0cc76e353c06737d86351ffbb63205a02e5c8f683c14cc02bffc9cdf4",
+        "size_bytes": 3169
+      },
+      {
+        "path": "frontend/src/lib/progress.js",
+        "hash": "d60f657e1813b23f33c51ccbc8ca2c0ebc3de98dc1a82bd43abecd24f85ede6f",
+        "size_bytes": 2771
+      },
+      {
+        "path": "frontend/src/main.jsx",
+        "hash": "844d8e47f804d1f2d15ac212b4993b91a8fb2733e0cf42b75f762da5b2913396",
+        "size_bytes": 235
+      },
+      {
+        "path": "frontend/src/pages/Practice.jsx",
+        "hash": "aafa5f717946c05d8534eb751500673159dd0f98218f0d6d809c84575406d9ba",
+        "size_bytes": 9636
+      },
+      {
+        "path": "frontend/vite.config.js",
+        "hash": "88c980ede78fa16fdb8d107c55a7771a6e9bcd9a39413489e755bb9625428940",
+        "size_bytes": 493
+      },
+      {
+        "path": "package.json",
+        "hash": "2bb96a119859489022f6600f565072e3697229b7b5bc4bc14bd0c83635e1a698",
+        "size_bytes": 236
+      },
+      {
+        "path": "vercel.json",
+        "hash": "b4c0d0b7118c4e6315598ca63a895f7164142879f96d5e172433e53c645b7caa",
+        "size_bytes": 201
+      }
+    ]
+  }
+}

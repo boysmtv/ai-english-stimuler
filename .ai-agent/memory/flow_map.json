@@ -1,0 +1,77 @@
+{
+  "flows": [
+    {
+      "name": "api",
+      "entrypoints": [
+        "backend/services/apiService.js",
+        "frontend/src/lib/api.js",
+        "frontend/src/lib/api.js"
+      ],
+      "domain_functions": [
+        "frontend/src/lib/api.js:resolveApiBaseUrl"
+      ],
+      "tests": [],
+      "docs": [
+        ".ai-agent/memory/api_contracts.json",
+        ".ai-agent/memory/architecture_map.json",
+        ".ai-agent/memory/change_log.json",
+        ".ai-agent/memory/engineering_guidance.json",
+        ".ai-agent/memory/feature_catalog.json",
+        ".ai-agent/memory/flow_map.json"
+      ],
+      "notes": []
+    },
+    {
+      "name": "config",
+      "entrypoints": [
+        "frontend/eslint.config.js",
+        "frontend/src/components/Mic.jsx",
+        "frontend/vite.config.js"
+      ],
+      "domain_functions": [
+        "frontend/src/components/Mic.jsx:buildRecorderConfig"
+      ],
+      "tests": [],
+      "docs": [
+        ".ai-agent/memory/api_contracts.json",
+        ".ai-agent/memory/architecture_map.json",
+        ".ai-agent/memory/change_log.json",
+        ".ai-agent/memory/engineering_guidance.json",
+        ".ai-agent/memory/feature_catalog.json",
+        ".ai-agent/memory/flow_map.json"
+      ],
+      "notes": []
+    },
+    {
+      "name": "middleware",
+      "entrypoints": [],
+      "domain_functions": [],
+      "tests": [],
+      "docs": [
+        ".ai-agent/memory/api_contracts.json",
+        ".ai-agent/memory/architecture_map.json",
+        ".ai-agent/memory/change_log.json",
+        ".ai-agent/memory/engineering_guidance.json",
+        ".ai-agent/memory/feature_catalog.json",
+        ".ai-agent/memory/flow_map.json"
+      ],
+      "notes": []
+    },
+    {
+      "name": "tests",
+      "entrypoints": [],
+      "domain_functions": [],
+      "tests": [],
+      "docs": [
+        ".ai-agent/memory/api_contracts.json",
+        ".ai-agent/memory/architecture_map.json",
+        ".ai-agent/memory/change_log.json",
+        ".ai-agent/memory/engineering_guidance.json",
+        ".ai-agent/memory/feature_catalog.json",
+        ".ai-agent/memory/flow_map.json"
+      ],
+      "notes": []
+    }
+  ],
+  "updated_at": "2026-05-15T17:07:35.054758+00:00"
+}

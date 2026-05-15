@@ -1,0 +1,68 @@
+{
+  "updated_at": "2026-05-15T17:07:35.062690+00:00",
+  "project_root": "D:\\Work\\Pribadi\\Ai\\ai-english-learn",
+  "final_project_root": "D:\\Work\\Pribadi\\Ai\\ai-english-learn",
+  "dominant_language": "javascript",
+  "dominant_platform": "server",
+  "languages": [
+    {
+      "language": "javascript",
+      "file_count": 21,
+      "modeling_guidance": "Prefer structured modules, explicit object maps, and framework conventions instead of free-form string branching.",
+      "localization_guidance": "Keep user-facing copy behind a resource, catalog, or message boundary suitable for the platform.",
+      "configuration_guidance": "Use the platform's standard configuration and environment layering instead of ad-hoc constants.",
+      "documentation_topics": [
+        "Modern JavaScript modules guide",
+        "Framework routing and state management conventions",
+        "Testing patterns for frontend and Node surfaces",
+        "Node.js runtime and package management guidance"
+      ],
+      "next_checks": [
+        "Confirm new javascript changes follow idiomatic modeling and naming conventions.",
+        "Review javascript test layout and update the closest existing test surface first.",
+        "Check whether the platform has a first-class localization or resource mechanism before adding new user-facing copy.",
+        "Check whether the framework has a canonical way to model commands, routes, requests, or screens before inventing a custom pattern."
+      ]
+    }
+  ],
+  "platforms": [
+    "server",
+    "backend"
+  ],
+  "framework_hints": [
+    "node"
+  ],
+  "documentation_topics": [
+    "Modern JavaScript modules guide",
+    "Framework routing and state management conventions",
+    "Testing patterns for frontend and Node surfaces",
+    "Node.js runtime and package management guidance"
+  ],
+  "next_checks": [
+    "Confirm new javascript changes follow idiomatic modeling and naming conventions.",
+    "Review javascript test layout and update the closest existing test surface first.",
+    "Check whether the platform has a first-class localization or resource mechanism before adding new user-facing copy.",
+    "Check whether the framework has a canonical way to model commands, routes, requests, or screens before inventing a custom pattern.",
+    "Model commands, routes, and events with typed abstractions native to the language/platform.",
+    "Externalize user-facing copy, status text, and errors behind a localization/resource strategy.",
+    "Keep configuration, secrets, and environment handling aligned with the platform's standard settings model.",
+    "Verify tests and docs cover the latest feature flow before promoting the next brief version.",
+    "Only promote a new brief version after the final output is runnable, tested, and safe to review or roll back.",
+    "Preserve the last known-good active version when a newer brief version still has unresolved gaps.",
+    "Do not create the next brief version until the current project version is fully implemented and has no open gaps.",
+    "If a brief still has gaps, close them in the same brief version instead of pushing them into a newer brief.",
+    "When the project supports Docker review, make the latest promoted version runnable in Docker before asking for review."
+  ],
+  "active_goals": [
+    "api",
+    "config",
+    "middleware",
+    "tests"
+  ],
+  "current_focus": {
+    "problem_statement": "# AI English Speaking Trainer - Brief v1\n\n## Goal\n\nEvolve the existing AI English Speaking Trainer into a browser-compatible speaking practice app that works reliably across desktop browsers, Android browsers, and iOS browsers. The app should keep the current \n...[truncated 7653 chars]",
+    "entrypoints": [],
+    "contracts": [],
+    "feature_count": 4
+  }
+}

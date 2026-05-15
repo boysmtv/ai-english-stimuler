@@ -1,0 +1,343 @@
+{
+  "project_root": "D:\\Work\\Pribadi\\Ai\\ai-english-learn",
+  "file_count": 21,
+  "files": [
+    {
+      "path": "backend/app.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "getNetworkUrls"
+        }
+      ]
+    },
+    {
+      "path": "backend/routes/analyze.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "backend/routes/levels.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "backend/scripts/generate-levels.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "backend/services/analyzerService.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "analyzeAttempt"
+        }
+      ]
+    },
+    {
+      "path": "backend/services/apiService.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "createHttpError"
+        },
+        {
+          "name": "normalizeLevelId"
+        },
+        {
+          "name": "normalizeFocus"
+        },
+        {
+          "name": "normalizeAudioMetrics"
+        },
+        {
+          "name": "getHealthPayload"
+        },
+        {
+          "name": "getLevelPayload"
+        },
+        {
+          "name": "getAnalysisPayload"
+        }
+      ]
+    },
+    {
+      "path": "backend/services/levelService.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "writeLevelFile"
+        },
+        {
+          "name": "ensureLevelData"
+        },
+        {
+          "name": "adaptLevel"
+        },
+        {
+          "name": "getLevelById"
+        }
+      ]
+    },
+    {
+      "path": "backend/services/levelTemplates.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "buildLevelCatalog"
+        }
+      ]
+    },
+    {
+      "path": "backend/services/mockCoachService.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "cleanText"
+        },
+        {
+          "name": "clampScore"
+        },
+        {
+          "name": "titleCaseSentence"
+        },
+        {
+          "name": "parseAudioMetrics"
+        },
+        {
+          "name": "coerce"
+        },
+        {
+          "name": "similarityScore"
+        },
+        {
+          "name": "collectGrammarIssues"
+        },
+        {
+          "name": "collectContentIssues"
+        },
+        {
+          "name": "analyzeFluency"
+        },
+        {
+          "name": "fillerCount"
+        },
+        {
+          "name": "analyzeVoiceDelivery"
+        },
+        {
+          "name": "buildCorrectedText"
+        },
+        {
+          "name": "analyzeWithMockCoach"
+        }
+      ]
+    },
+    {
+      "path": "backend/services/openaiCoachService.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "hasOpenAI"
+        },
+        {
+          "name": "getClient"
+        },
+        {
+          "name": "clampScore"
+        },
+        {
+          "name": "sanitizePayload"
+        },
+        {
+          "name": "analyzeWithOpenAI"
+        }
+      ]
+    },
+    {
+      "path": "backend/services/transcriptionService.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "normalizeWhitespace"
+        },
+        {
+          "name": "transcribeAttempt"
+        }
+      ]
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "frontend/src/App.jsx",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "App"
+        },
+        {
+          "name": "handleAttempt"
+        },
+        {
+          "name": "handleContinue"
+        },
+        {
+          "name": "handleReset"
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/Feedback.jsx",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "scoreTone"
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/Mic.jsx",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "buildRecorderConfig"
+        },
+        {
+          "name": "isHttpsOrLocalhost"
+        },
+        {
+          "name": "clearCapturedAudio"
+        },
+        {
+          "name": "updateCapturedAudio"
+        },
+        {
+          "name": "stopRecording"
+        },
+        {
+          "name": "startRecording"
+        },
+        {
+          "name": "openDeviceRecorder"
+        },
+        {
+          "name": "handleFileChange"
+        },
+        {
+          "name": "handleAnalyze"
+        },
+        {
+          "name": "handleTranscriptChange"
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/lib/api.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "resolveApiBaseUrl"
+        },
+        {
+          "name": "parseResponse"
+        },
+        {
+          "name": "requestJson"
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/lib/audioAnalysis.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "averageChannels"
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/lib/progress.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "averageScore"
+        },
+        {
+          "name": "strongestNeed"
+        },
+        {
+          "name": "clampLevel"
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/main.jsx",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "frontend/src/pages/Practice.jsx",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": [
+        {
+          "name": "StatChip"
+        },
+        {
+          "name": "playListeningPrompt"
+        }
+      ]
+    },
+    {
+      "path": "frontend/vite.config.js",
+      "language": "javascript",
+      "package": "",
+      "classes": [],
+      "functions": []
+    }
+  ],
+  "updated_at": "2026-05-15T17:07:34.998864+00:00"
+}
